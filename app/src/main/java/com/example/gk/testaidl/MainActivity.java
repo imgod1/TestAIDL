@@ -7,6 +7,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+/**
+ * http://blog.csdn.net/qq_30379689/article/details/52253413
+ * 两个工程
+ * 先开启服务端的service
+ * 然后再打开客户端绑定service 传送数据
+ **/
 public class MainActivity extends AppCompatActivity {
 
     @Override
